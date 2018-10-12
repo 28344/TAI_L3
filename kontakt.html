@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<nav id="navi">
+    <ul>
+        <li><a href="index.html">Strona Glowna</a></li>
+        <li><a href="#Blog">Blog</a></li>
+        <li><a href="#Quiz">Quiz</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+
+    </ul>
+</nav>
+<div class="container misiek1">
+    <form>
+        <fieldset>
+            <p align="left">
+                Imię:<br>
+                <input type="text" name="firstname" placeholder="Podaj imie"><br>
+                Nazwisko:<br>
+                <input type="text" name="lastname"placeholder="Podaj nazwisko"><br>
+                E-mail:<br>
+                <input type="text" name="lastname" placeholder="Podaj email"><br>
+                Płeć:<br>
+                <input type="radio" value="kobieta" name="plec" />Kobieta
+                <input type="radio" value="mężczyzna" name="plec" />Mężczyzna<br>
+                Opis:<br>
+                <textarea name="opinia" cols="40" rows="5"></textarea><br>
+                <br><label for="age">Wiek:</label>
+                <input type="number" name="age" id="age" min="18"/><br>
+                <br><label for="maritial">Stan cywilny</label>
+                <select id="maritial" name="maritial" required>
+                    <option>Panna/Kawaler</option>
+                    <option>Mężatka/Żonaty</option>
+                    <option>Wdowa/Wdowiec</option>
+                </select>
+                <tr>
+                    <br />
+                    <td colspan="2" align="center"><br />
+                        <input type="submit" value="Wyślij" />
+                        <input type="reset" value="Wyczyść" />
+                    </td>
+                </tr>
+            </p>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
