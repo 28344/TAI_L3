@@ -27,17 +27,19 @@
 <a href="#" class="button">Blog</a>
 <a href="kontakt.html" class="button">Kontakt</a><br>
 
-<h7>1. Jakiego typu grą jest Call of Duty?</h7>
+<h1 class="h2" style="background-color: darkgrey">QUIZ</h1>
 
-<ul class="quizlist">
-    <li><input type="radio" name="cod" value="wartość" />FPS</li>
-    <li><input type="radio" name="cod" value="wartość" />MMORPG</li>
-    <li><input type="radio" name="cod" value="wartość" />Zręcznościowa</li>
-    <li><input type="radio" name="cod" value="wartość" />Logiczna</li>
-</ul>
-
-<button class="btn btn-success next">Następne pytanie</button>
-
-<div id="quiz"></div>
+<div class="quiz-container">
+    <div class="quiztest" id="quiz"></div>
+</div>
+<div class="quiz-container">
+    <button id="previous">Poprzednie pytanie</button>
+    <button class="buttonright" id="next" onclick="move()">Następne pytanie</button>
+    <button id="submit">Podsumuj quiz</button>
+    <div class="result">
+        <div id="results"></div>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
